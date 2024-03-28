@@ -5,119 +5,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="./index.html">WebStudio</a>
+            <a class="logo" href="./index.html">Web<span class="logo-part">Studi</span></a>
             <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts </a></li>
+                <li><a class="nav-link" href="">Studio</a></li>
+                <li><a class="nav-link" href="">Portfolio</a></li>
+                <li><a class="nav-link" href="">Contacts </a></li>
             </ul>
         </nav>
-        <address>
+        <address class="address">
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11 </a></li>
+                <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11 </a></li>
             </ul>
         </address>
-
     </header>
-    <main>
-        <section>
-            <h1> Effective Solutions
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero-title"> Effective Solutions
                 for Your Business
             </h1>
-            <button type="button"> Order Service </button>
+            <button type="button" class="hero-btn"> Order Service </button>
         </section>
-        <section>
-            <h2 hidden>features</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business
+        <section class="features">
+            <h2 class="visually-hidden">features</h2>
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3 class="features-subtitle">Strategy</h3>
+                    <p class="features-item-title">Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.</p>
                 </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible
+                <li class="features-item">
+                    <h3 class="features-subtitle">Punctuality</h3>
+                    <p class="features-item-title">Bring the key message to the brand's audience for the best price within the shortest possible
                         time.</p>
                 </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize
+                <li class="features-item">
+                    <h3 class="features-subtitle">Diligence</h3>
+                    <p class="features-item-title">Research and confirm brands that present the strongest digital growth opportunities and minimize
                         risk.</p>
                 </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for
+                <li class="features-item">
+                    <h3 class="features-subtitle">Technologies</h3>
+                    <p class="features-item-title">Design practice focused on digital experiences. We bring forth a deep passion for
                         problem-solving.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <img src="images/Mark Guerrero.jpg" alt="photo" width="264" height="260" />
+        <section class="taste">
+            <h2 class="taste-title">Our Team</h2>
+            <ul class="taste-list">
+                <li class="taste-item">
+                    <img src="images/Mark Guerrero.jpg" alt="photo" width="264" height="260" class="taste-image" />
 
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
-
-                </li>
-                <li>
-                    <img src="images/Tom Ford.jpg" alt="photo" width="264" height="260" />
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="taste-name">Mark Guerrero</h3>
+                    <p class="taste-text">Product Designer</p>
 
                 </li>
-                <li>
-                    <img src="./images/CamilaGarcia.jpg" alt="photo" width="264" height="260" />
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                <li class="taste-item">
+                    <img src="images/Tom Ford.jpg" alt="photo" width="264" height="260" class="taste-image" />
+                    <h3 class="taste-name">Tom Ford</h3>
+                    <p class="taste-text">Frontend Developer</p>
+
                 </li>
-                <li>
-                    <img src="./images/DanielWilson.jpg" alt="photo" width="264" height="260" />
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                <li class="taste-item">
+                    <img src="./images/CamilaGarcia.jpg" alt="photo" width="264" height="260" class="taste-image" />
+                    <h3 class="taste-name">Camila Garcia</h3>
+                    <p class="taste-text">Marketing</p>
+                </li>
+                <li class="taste-item">
+                    <img src="./images/DanielWilson.jpg" alt="photo" width="264" height="260" class="taste-image" />
+                    <h3 class="taste-name">Daniel Wilson</h3>
+                    <p class="taste-text">UI Designer</p>
 
                 </li>
             </ul>
         </section>
-        <section>
-            <h2> Our Portfolio </h2>
+        <section class="made">
+            <h2 class="made-title"> Our Portfolio </h2>
             <ul> 
-                <li> 
-                    <img src="./images/bankingapp.jpg" alt="photo" width="360" height="300"
-                    <h3> Banking App </h3>
-                    <p> App </p>
+                <li class="made-item"> 
+                    <img src="./images/bankingapp.jpg" alt="photo" width="360" height="300" class="made-image">
+                    <h3 class="made-name">Banking App</h3>
+                    <p class="made-text"> App </p>
                 </li>
-                <li> 
-                    <img src="./images/CashlessPayment.jpg" alt="photo" width="360" height="300"
-                    <h3> Cashless Payment </h3>
-                    <p> Marketing </p>
+                <li class="made-item"> 
+                    <img src="./images/CashlessPayment.jpg" alt="photo" width="360" height="300" class="made-image">
+                    <h3 class="made-name">Cashless Payment</h3>
+                    <p class="made-text"> Marketing </p>
                 </li>
-                <li>
-                    <img src="./images/MeditationApp.jpg" alt="photo" width="360" height="300"
-                    <h3> Meditation App </h3>
-                    <p> App </p>
+                <li class="made-item">
+                    <img src="./images/MeditationApp.jpg" alt="photo" width="360" height="300" class="made-image">
+                    <h3 class="made-name">Meditation App</h3>
+                    <p class="made-text"> App </p>
                 </li>
-                <li> 
-                    <img src="./images/TaxiService.jpg" alt="photo" width="360" height="300"
-                    <h3> Taxi Service </h3>
-                    <p> Marketing </p>
+                <li class="made-item"> 
+                    <img src="./images/TaxiService.jpg" alt="photo" width="360" height="300" class="made-image">
+                    <h3 class="made-name">Taxi Service</h3>
+                    <p class="made-text"> Marketing </p>
                 </li>
-                <li> 
-                    <img src="./images/ScreenIllustrations.jpg" alt="photo" width="360" height="300"
-                    <h3> Screen Illustrations </h3>
-                    <p> Design </p>
+                <li class="made-item"> 
+                    <img src="./images/ScreenIllustrations.jpg" alt="photo" width="360" height="300" class="made-image">
+                    <h3 class="made-name">Screen Illustrations</h3>
+                    <p class="made-text"> Design </p>
                 </li>
-                <li> 
-                    <img src="./images/OnlineCourses.jpg" alt="photo" width="360" height="300"
-                    <h3> Online Courses </h3>
-                    <p> Marketing </p>
+                <li class="made-item"> 
+                    <img src="./images/OnlineCourses.jpg" alt="photo" width="360" height="300" class="made-image">
+                    <h3 class="made-name">Online Courses</h3>
+                    <p class="made-text"> Marketing </p>
                 </li>
             </ul>
         </section>
