@@ -113,7 +113,7 @@ ul, ol {
 /*---------taste---------*/
 
 .taste {
-    background-color: #FFFFFF
+    background-color: #F4F4FD;
 }
 
 .taste-title {
@@ -126,7 +126,9 @@ ul, ol {
         color: #2e2f42;
 }
 
-.taste-list {}
+.taste-list {
+    background-color: #FFFFFF;
+}
 
 .taste-item {}
 
