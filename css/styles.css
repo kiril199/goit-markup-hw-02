@@ -181,3 +181,30 @@ ul, ol {
         color: #434455;
 }
 
+/*---------footer---------*/
+
+.footer {
+
+}
+
+.footer-sic {
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-part {
+    color: #4d5ae5;
+}
+
+.footer-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
